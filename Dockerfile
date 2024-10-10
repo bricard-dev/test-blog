@@ -2,9 +2,9 @@
 FROM postgres:latest
 
 # Définir les variables d'environnement pour la configuration de PostgreSQL
-ENV POSTGRES_DB=mydatabase
-ENV POSTGRES_USER=myuser
-ENV POSTGRES_PASSWORD=mypassword
+ENV POSTGRES_DB=db
+ENV POSTGRES_USER=admin
+ENV POSTGRES_PASSWORD=admin
 
 # Copier les scripts d'initialisation dans le répertoire de démarrage de PostgreSQL
 # (optionnel, si vous avez des scripts d'initialisation)

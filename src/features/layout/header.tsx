@@ -6,8 +6,8 @@ const navLinks = [
     href: '/',
   },
   {
-    title: 'Users',
-    href: '/users',
+    title: 'Posts',
+    href: '/posts',
   },
 ];
 
